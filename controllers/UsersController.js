@@ -1,6 +1,5 @@
-const crypto = require('crypto');
+const crypto = require('crypto');	
 const redisClient = require('../utils/redis');
-const User = require('../models/User');
 
 
 exports.postNew = async (req, res) => {
